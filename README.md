@@ -28,3 +28,5 @@ npm install -D babel-loader@7 babel-core babel-preset-env
 npm install -D babel-loader @babel/core @babel/preset-env webpack
 
 npm install --save-dev html-webpack-plugin
+
+npm install --save-dev webpack-dev-server css-loader node-sass sass-loader style-loader

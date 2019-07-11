@@ -1,2 +1,8 @@
-const element =document.getElementById('root');
-element.innerHTML = 'hello, world111!';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './containers/app/app.js'
+
+ReactDOM.render(
+    <App/>,
+  document.getElementById('root')
+)
