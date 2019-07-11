@@ -26,3 +26,5 @@ npm install -D babel-loader@7 babel-core babel-preset-env
 
 更新到最高版本:
 npm install -D babel-loader @babel/core @babel/preset-env webpack
+
+npm install --save-dev html-webpack-plugin
