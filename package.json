@@ -1,9 +1,10 @@
 {
   "name": "classRoom",
   "version": "1.0.0",
-  "description": "",
+  "description": "想实现一个有白板，视频和聊天的桌面应用；(后续功能在逐步添加) 技术栈： react，redux，redux-router， electron, websocket",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config build/webpack.prod.conf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,10 +12,23 @@
     "url": "git+https://github.com/liujianhang1314/classRoom.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "liujianhang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/liujianhang1314/classRoom/issues"
   },
-  "homepage": "https://github.com/liujianhang1314/classRoom#readme"
+  "homepage": "https://github.com/liujianhang1314/classRoom#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
